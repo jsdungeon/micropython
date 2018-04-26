@@ -1,0 +1,20 @@
+from m5stack import lcd
+lcd.clear()
+lcd.println('Welcome to the New World!')
+lcd.println('Press button A')
+while True:
+  if buttonA.wasPressed():
+    print('Button A was Pressed')
+    lcd.println('Thank you for pressing the A button!')
+
+  if buttonA.wasReleased():
+    print('Button A was Released')
+    
+  if buttonC.wasPressed():
+    print('Button C was Pressed')
+    lcd.println('Thank you for pressing the C button!')
+
+  if buttonC.wasReleased():
+    print('Button C was Released')
+    lcd.println('End of program!')
+    break
