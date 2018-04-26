@@ -1,0 +1,6 @@
+import micropython
+from m5stack import *
+
+lcd.clear()
+
+lcd.println('hello world!')
