@@ -2,6 +2,7 @@
 First steps with micropython using ESP32 and ESP8266 micro controller
 
 I am playing around with a M5STACK ESP32 based microcontroller. You can read more about it here: https://github.com/m5stack/M5Stack
+There is a forum as well: http://forum.m5stack.com/category/4/products
 
 Actually I am displaying text on the integrated screen.
 The next step is how to use the keyboard.
