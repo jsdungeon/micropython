@@ -12,6 +12,11 @@ The communication with MS code is done via USB -> COM. It is necessary to check 
 Before you can use micropython you have to flash it to the M5STACK.
 I will try to add more details about this in the near future.
 
+CP210x USB to UART Bridge VCP Drivers https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
+DO NOT download the univeral drive!
+Use this one: Download for Windows 7/8/8.1/10 (v6.7.5)
+
+
 But don't forget: I'm a noob with this ;-)
 
 Cheers & have fun!
